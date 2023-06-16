@@ -1,0 +1,35 @@
+div#box1 {
+    border: 10px solid blue;
+    padding: 50px;
+    margin: 20px;
+    background-image: url("../img/background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#head {
+    font-family: 'Kablammo', cursive;
+    font-size: 110px;
+    color: darkorange;
+}
+
+div#para {
+    font-family: 'Kablammo', cursive;
+    font-size: 100px;
+    color: darkorange;
+}
+
+div#box2 {
+    border: 10px solid red;
+    padding: 90px;
+    margin: 20px;
+    background-image: url("../img/background.jpeg");
+    background-repeat: repeat;
+    background-size: 500px;
+}
+
+div#para1 {
+    font-family: 'Kablammo', cursive;
+    font-size: 200px;
+    color: black;
+}

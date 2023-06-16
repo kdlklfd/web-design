@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(240, 248, 255, 0);
+    text-align: center;
+}
+
+div#name {
+    background-image: url("../img/background1.jpeg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    padding: 10px;
+}
+
+div#me {
+    background-image: url("../img/background2.jpeg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    padding: 10px;
+}
+
+img {
+    height: 300px;
+}
+
+div#intro {
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+    background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 800px;
+}
