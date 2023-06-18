@@ -16,15 +16,8 @@ h2 {
     color: black;
 }
 
-div#box1 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: -10px;
-    position: absolute;
-    text-align: center;
-    width: 15.9%;
-    left: 16%;
-    top: 300px;
+img {
+    height: 150px;
 }
 
 h3 {
@@ -41,6 +34,17 @@ p {
     top: -10px;
 }
 
+div#box1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    position: absolute;
+    text-align: center;
+    width: 15.9%;
+    left: 16%;
+    top: 300px;
+}
+
 div#box2 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -52,12 +56,6 @@ div#box2 {
     top: 300px;
 }
 
-h4 {
-    font-family: 'Lato', sans-serif;
-    font-size: 17px;
-    color: black;
-}
-
 div#box3 {
     padding-top: 10px;
     padding-bottom: 100px;
@@ -67,15 +65,4 @@ div#box3 {
     width: 15.9%;
     left: 68%;
     top: 300px;
-}
-
-h5 {
-    font-family: 'Lato', sans-serif;
-    font-size: 17px;
-    color: black;
-}
-
-
-img {
-    height: 150px;
 }
