@@ -64,13 +64,18 @@ body {
     width: 75%;
 }
 
+#table>#a>div>h2 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
 #table>#b {
     width: 25%;
 }
 
 #table>#a>#a1 {
     width: 95%;
-    height: 60%;
+    height: 75%;
     background-color: white;
     margin-top: 10px;
     padding: 5px;
@@ -79,14 +84,14 @@ body {
 }
 
 #table>#a>#a1>div {
-    width: 95%;
-    height: 35%;
-    background-color: #f1f1f1;
+    width: 98%;
+    height: 40%;
+    background-color: #A5A5A5;
 }
 
 #table>#a>#a2 {
     width: 95%;
-    height: 60%;
+    height: 75%;
     background-color: white;
     margin-top: 10px;
     padding: 5px;
@@ -95,17 +100,33 @@ body {
 }
 
 #table>#a>#a2>div {
-    width: 95%;
-    height: 35%;
-    background-color: #f1f1f1;
+    width: 98%;
+    height: 40%;
+    background-color: #A5A5A5;
 }
 
 #table>#b>#b1 {
-    width: 95%;
+    width: 86%;
+    height: 50%;
     background-color: white;
-    padding: 5px;
     margin-top: 10px;
+    padding: 5px;
+    padding-left: 20px;
     right: 0px;
+}
+
+#table>#b>#b1>h5 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#table>#b>#b1>div {
+    width: 75%;
+    height: 40%;
+    background-color: #A5A5A5;
+    margin-top: -30px;
+    padding-top: 1px;
+    padding-left: 20px;
 }
 
 #table>#b>#b2 {
@@ -124,9 +145,11 @@ body {
     right: 0px;
 }
 
-#button {
-    background-color: white;
+#table>#button {
+    background-color: #DCDCDC;
     text-align: center;
-    margin-top: 300px;
+    width: 100%;
     padding: 10px;
+    margin-top: 330px;
+    margin-bottom: 10px;
 }
