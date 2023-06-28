@@ -1,0 +1,132 @@
+body {
+    background-color: #f1f1f1;
+}
+
+#container {
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    margin-top: -25px;
+}
+
+#header {
+    text-align: center;
+}
+
+#header>h1 {
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+#header>p {
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+.top {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+
+.right>div>a {
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.left>div>a {
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+#table {
+    padding-top: 1px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#table>#a {
+    width: 75%;
+}
+
+#table>#b {
+    width: 25%;
+}
+
+#table>#a>#a1 {
+    width: 95%;
+    height: 60%;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    left: 0px;
+}
+
+#table>#a>#a1>div {
+    width: 95%;
+    height: 35%;
+    background-color: #f1f1f1;
+}
+
+#table>#a>#a2 {
+    width: 95%;
+    height: 60%;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    left: 0px;
+}
+
+#table>#a>#a2>div {
+    width: 95%;
+    height: 35%;
+    background-color: #f1f1f1;
+}
+
+#table>#b>#b1 {
+    width: 95%;
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    right: 0px;
+}
+
+#table>#b>#b2 {
+    width: 95%;
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    right: 0px;
+}
+
+#table>#b>#b3 {
+    width: 95%;
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    right: 0px;
+}
+
+#button {
+    background-color: white;
+    text-align: center;
+    margin-top: 300px;
+    padding: 10px;
+}
