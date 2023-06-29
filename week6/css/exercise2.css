@@ -1,0 +1,235 @@
+body {
+    margin-top: 0px;
+}
+
+#container {
+    background-color: #F1F1F1;
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+}
+
+#header {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+#header>h1 {
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+#header>p {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.top {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+
+.right>div>a {
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.left>div>a {
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+#table {
+    padding-top: 1px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#table>.a {
+    width: 75%;
+}
+
+#table>.a>div>h2 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#table>.b {
+    width: 25%;
+}
+
+#table>.a>#a1 {
+    width: 95%;
+    height: 65%;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+#table>.a>#a1>div {
+    width: 98%;
+    height: 42%;
+    background-color: #A5A5A5;
+}
+
+#table>.a>#a1>div>h4 {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#table>.a>#a2 {
+    width: 95%;
+    height: 65%;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+#table>.a>#a2>div {
+    width: 98%;
+    height: 42%;
+    background-color: #A5A5A5;
+}
+
+#table>.a>#a2>div>h4 {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#table>.b>#b1 {
+    width: 85%;
+    height: 38%;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#table>.b>#b1>h5 {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+#table>.b>#b1>div {
+    width: 90%;
+    height: 34%;
+    background-color: #A5A5A5;
+    margin-top: -20px;
+}
+
+#table>.b>#b1>div>h4 {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#table>.b>#b1>p {
+    padding-right: 25px;
+}
+
+#table>.b>#b2 {
+    width: 85%;
+    height: 50%;
+    background-color: white;
+    margin-top: 15px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#table>.b>#b2>h5 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#table>.b>#b2>div {
+    width: 90%;
+    height: 75%;
+    background-color: #A5A5A5;
+    margin-top: -10px;
+}
+
+#table>.b>#b2>div>h4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+#table>.b>#b3 {
+    width: 85%;
+    height: 18%;
+    background-color: white;
+    margin-top: 15px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#table>.b>#b3>h5 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#table>.b>#b3>p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    #table {
+        flex-direction: column;
+    }
+
+    #table>.a {
+        width: 100%;
+    }
+
+    #table>.b {
+        width: 100%;
+    }
+
+    #table>.a>#a1 {
+        width: 97%;
+    }
+
+    #table>.a>#a2 {
+        width: 97%;
+    }
+
+    #table>.b>#b1 {
+        width: 96%;
+    }
+
+    #table>.b>#b2 {
+        width: 96%;
+    }
+
+    #table>.b>#b3 {
+        width: 96%;
+    }
+}
+
+#table>#button {
+    background-color: #DCDCDC;
+    text-align: center;
+    width: 97%;
+    padding: 10px;
+    margin-top: 290px;
+    margin-bottom: 10px;
+}
