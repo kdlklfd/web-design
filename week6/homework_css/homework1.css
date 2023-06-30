@@ -1,0 +1,86 @@
+body {
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#container {
+    padding: 10px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    padding: auto;
+}
+
+#header>#left {
+    width: 30%;
+}
+
+#header>#left>div>img {
+    width: 80%;
+    height: 60%;
+    background-color: white;
+    padding: 10px;
+}
+
+#header>#right {
+    width: 70%;
+}
+
+#right>.phone {
+    border-style: double;
+    background-color: white;
+    border-color: black;
+    color: black;
+    width: 25%;
+    height: 35%;
+    margin-left: 352px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#right>.menu {
+    display: flex;
+    margin-top: 5px;
+    height: 150%;
+}
+
+#right>.menu>div {
+    border-style: double;
+    background-color: white;
+    border-color: black;
+    color: black;
+    border-style: double;
+    width: 80%;
+    height: 20%;
+    text-align: center;
+}
+
+#slide {
+    width: 100%;
+}
+
+#slide>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+#center {
+    width: 100%;
+    display: flex;
+}
+
+#bottom {
+    background-color: #DCDCDC;
+    text-align: center;
+    width: 97%;
+    padding: 10px;
+    margin-top: 290px;
+    margin-bottom: 10px;
+}
