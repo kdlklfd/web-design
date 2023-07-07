@@ -1,0 +1,195 @@
+body {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#container {
+    padding: 10px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.a {
+    width: 100%;
+    display: flex;
+    margin-top: -4px;
+}
+
+.a>#a1 {
+    width: 30%;
+}
+
+.a>#a1>img {
+    width: 45%;
+    background-color: white;
+}
+
+.a>#a2 {
+    width: 70%;
+    text-align: center;
+}
+
+.phone {
+    text-align: center;
+    border-style: double;
+    background-color: white;
+    border-color: black;
+    color: black;
+    width: 60%;
+    margin-left: 38%;
+}
+
+#menu {
+    display: flex;
+    margin-top: 25px;
+}
+
+#menu>div {
+    text-align: center;
+    border-style: double;
+    background-color: white;
+    border-color: black;
+    color: black;
+    width: 70%;
+    margin-top: 6%;
+}
+
+#menu>div>a {
+    text-decoration: none;
+    color: black;
+}
+
+.b {
+    height: 200px;
+    width: 100%;
+    margin-top: -17px;
+    background-color: wheat;
+}
+
+.b>.intro {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+    padding: 0px 10px 0px 10px;
+}
+
+.c {
+    width: 100%;
+    height: 355px;
+    display: flex;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.c>#a3 {
+    width: 50%;
+}
+
+.c>#a3>.a43 {
+    width: 99%;
+    height: 350px;
+    background-color: wheat;
+}
+
+.c>#a4 {
+    width: 50%;
+}
+
+.c>#a4>.a44 {
+    width: 99%;
+    height: 350px;
+    background-color: wheat;
+    margin-left: 3px;
+}
+
+.sidebar {
+    height: 83%;
+    width: 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #DCDCDC;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar>div {
+    padding: 10px;
+    margin-left: -40px;
+}
+
+.sidebar>div>a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    width: 10px;
+    color: black;
+}
+
+#main1 {
+    transition: margin-left .5s;
+    margin-top: -350px;
+}
+
+#main1>button {
+    background-color: wheat;
+    border: 0px solid wheat;
+}
+
+#main1>button>img {
+    width: 65px;
+    height: 100%;
+    background-color: wheat;
+}
+
+#main1>p {
+    margin-top: -5px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+#main {
+    transition: margin-left .5s;
+    margin-top: -350px;
+}
+
+#main>button {
+    background-color: wheat;
+    border: 0px solid wheat;
+}
+
+#main>button>img {
+    width: 65px;
+    height: 100%;
+    background-color: wheat;
+}
+
+#main>p {
+    margin-top: -5px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+.d {
+    background-color: #DCDCDC;
+    text-align: center;
+    width: 98%;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+}

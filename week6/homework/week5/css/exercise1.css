@@ -1,0 +1,7 @@
+div {
+    background-color: lightblue;
+    width: 200px;
+    border: 10px solid blue;
+    padding: 10px 20px 20px 40px;
+    margin: 20px;
+}

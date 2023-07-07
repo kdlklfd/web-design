@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        css layout
+    </title>
+    <meta name="description" content="css layout">
+    <link rel="stylesheet" href="../../homework_css/homework3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&family=Lobster&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="table">
+            <div class="a">
+                <div id="a1">
+                    <img src="../../img/me.png" alt="slide">
+                </div>
+                <div id="a2">
+                    <div class="phone">011-10823707</div>
+                    <div id="menu">
+                        <div><a href="week3.html" target="_self">week3</a></div>
+                        <div><a href="week4.html" target="_self">week4</a></div>
+                        <div><a href="week5.html" target="_self">week5</a></div>
+                        <div><a href="week6.html" target="_self">week6</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="b">
+                <div class="intro">
+                    <h1>My Introduction</h1>
+                    <p>Hello, my name is Chi Zhan Ho. I am a degree student studying at New Era. I love to play game and
+                        studying novel. Here is all my homework and exercise.</p>
+                </div>
+            </div>
+
+            <div class="c">
+                <div id="a3">
+                    <div class="a43">
+                        <div id="Sidebar1" class="sidebar">
+                            <div class="close" onclick="close1Nav()">×</div>
+                            <div><a>none</a></div>
+                        </div>
+
+                        <div id="main1">
+                            <button type="button" class="open" onclick="open1Nav()"><img src="../../img/button1.webp"
+                                    alt="slide"></button>
+                            <p>homework</p>
+                        </div>
+
+                        <script>
+                            function open1Nav() {
+                                document.getElementById("Sidebar1").style.width = "60%";
+                                document.getElementById("main1").style.marginLeft = "60%";
+                            }
+
+                            function close1Nav() {
+                                document.getElementById("Sidebar1").style.width = "0";
+                                document.getElementById("main1").style.marginLeft = "0";
+                            }
+                        </script>
+                    </div>
+                </div>
+                <div id="a4">
+                    <div class="a44">
+                        <div id="Sidebar" class="sidebar">
+                            <div class="close" onclick="closeNav()">×</div>
+                            <div><a href="../week3/idex.html" target="_self">exercise1</a></div>
+                        </div>
+
+                        <div id="main">
+                            <button type="button" class="open" onclick="openNav()"><img src="../../img/button1.webp"
+                                    alt="slide"></button>
+                            <p>exercise</p>
+                        </div>
+
+                        <script>
+                            function openNav() {
+                                document.getElementById("Sidebar").style.width = "60%";
+                                document.getElementById("main").style.marginLeft = "60%";
+                            }
+
+                            function closeNav() {
+                                document.getElementById("Sidebar").style.width = "0";
+                                document.getElementById("main").style.marginLeft = "0";
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d">
+                <h2>Here is week3</h2>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
