@@ -10,6 +10,8 @@ body {
     color: black;
     background-color: white;
     box-shadow: 0 -20px 150px 0 #d9d9d9;
+    position: sticky;
+    top: 0;
 }
 
 .left {
@@ -66,14 +68,14 @@ input[type=checkbox] {
 @media (max-width: 768px) {
     .menu {
         display: none;
-        position: absolute;
+        position: fixed;
         background-color: black;
         left: 0;
         text-align: left;
         margin-top: -53px;
         width: 40%;
         height: 100%;
-        opacity: 85%;
+        opacity: 95%;
     }
 
     .menu div {
@@ -98,5 +100,212 @@ input[type=checkbox] {
 
     .menubar {
         display: block;
+    }
+}
+
+.center {
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 80px;
+    background: linear-gradient(to right, #8194FF 0%, #789DFE 25%, #72A8FC 50%, #6AB2FE 75%, #63BBFB 100%)
+}
+
+.center h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.center #go {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.center #go a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+
+#high {
+    margin-top: 7%;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.enter {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -2%;
+}
+
+.sideleft {
+    flex: 50%;
+    margin-top: 2%;
+}
+
+.sideright {
+    flex: 20%;
+    margin-top: 0.2%;
+    margin-left: 10%;
+}
+
+textarea {
+    width: 100%;
+    height: 240px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+#row1 {
+    margin-top: 3%;
+}
+
+#row1 input {
+    width: 47.5%;
+    height: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+#email {
+    margin-left: 4%;
+}
+
+#row2 {
+    margin-top: 3%;
+}
+
+#row2 button {
+    height: 40px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #8194FF;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#row2 button:hover {
+    background-color: white;
+    color: #8194FF;
+}
+
+.next {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5.5%;
+}
+
+.next1 {
+    margin-left: 6%;
+}
+
+.next1 h2 {
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+
+.next1 p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -6%;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7%;
+    padding: 60px;
+    padding-left: 10%;
+    padding-right: 2%;
+    color: white;
+    background: linear-gradient(to right, #8194FF 0%, #789DFE 25%, #72A8FC 50%, #6AB2FE 75%, #63BBFB 100%)
+}
+
+.thing input {
+    width: 95%;
+    height: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+.thing {
+    flex: 25%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5%;
+}
+
+.thing h2 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.thing p {
+    font-weight: 300;
+    width: 90%;
+    margin-top: -2%;
+    font-size: 16px;
+}
+
+.media img {
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 1200px) {
+    #row1 input {
+        width: 100%;
+    }
+
+    #email {
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    .sideright {
+        margin-left: 0%;
+        margin-top: 7%;
+        flex: 100%;
+    }
+
+    .next {
+        padding-bottom: 2%;
+    }
+
+    .thing {
+        flex: 20%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sideright {
+        margin-left: 0%;
+    }
+
+    .thing {
+        flex: 100%;
     }
 }
